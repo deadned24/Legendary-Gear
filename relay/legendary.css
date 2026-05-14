@@ -13,6 +13,10 @@ background-image: url('images/legendary/legendary.png');
 background-color : rgb(20, 18, 15);
 color: var(--txtColor);}
 
+#menuBox > label{
+	color:black;
+}
+
 #description > center:nth-child(1) > b:nth-child(3) > span:nth-child(1){
 font-family: 'exocet';
 background-color: transparent !important;
