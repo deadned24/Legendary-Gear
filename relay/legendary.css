@@ -11,7 +11,8 @@
 body{
 background-image: url('images/legendary/legendary.png');
 background-color : rgb(20, 18, 15);
-color: var(--txtColor);}
+color: var(--txtColor);
+}
 
 #menuBox > label{
 	color:black;
@@ -22,8 +23,8 @@ font-family: 'exocet';
 background-color: transparent !important;
 color: var(--lootGold) !important;
 font-size: 18px;
-
 }
+
 body > a:nth-child(3) {
 	color: var(--txtColor);/*/[wiki], not picked up by body styling*/
 }
