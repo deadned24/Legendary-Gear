@@ -1,8 +1,12 @@
 # Legendary-Gear
 stylized item descriptions for kol's "Legendary" gear
 
-Runs on top of [kol-desc](https://github.com/deadned24/kol-desc).
+Supports:
+* legendary seal-clubbing club 
+* legendary pasta wand
 
+Runs on top of [kol-desc](https://github.com/deadned24/kol-desc).
+  
 ## Installation
 
 Run this command in the graphical CLI in KoLmafia:
