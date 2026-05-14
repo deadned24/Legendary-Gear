@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'exocet';
+  src: url('images/legendary/exocet.ttf') format('truetype');
+  font-display: swap;
+}
+:root {
+  --txtColor: #BBB; 
+  --lootGold: #d4af37;
+}
+
+body{
+background-image: url('images/legendary/legendary.png');
+background-color : rgb(20, 18, 15);
+color: var(--txtColor);}
+
+#description > center:nth-child(1) > b:nth-child(3) > span:nth-child(1){
+font-family: 'exocet';
+background-color: transparent !important;
+color: var(--lootGold) !important;
+font-size: 18px;
+
+}
+body > a:nth-child(3) {
+	color: var(--txtColor);/*/[wiki], not picked up by body styling*/
+}
+
+#description > blockquote:nth-child(3) > tagdn:nth-child(11) > p:nth-child(1) > font:nth-child(1){
+	color: var(--lootGold) !important; /*LAD*/
+}
+
+img {
+	filter: invert(100%);
+	mix-blend-mode: screen;
+}
