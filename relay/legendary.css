@@ -37,3 +37,7 @@ img {
 	filter: invert(100%);
 	mix-blend-mode: screen;
 }
+
+font[color="blue"]{
+	color: rgb(144, 52, 255) !important;
+}
